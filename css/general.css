@@ -1,0 +1,7 @@
+@media screen and (min-width: 700px) {
+    .mainNav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
