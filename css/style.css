@@ -73,6 +73,30 @@ select {
   font-weight: bolder;
 }
 
+.price {
+  text-decoration: line-through;
+}
+
+.subtle {
+  opacity: 75%;
+}
+
+.percent {
+  background-color: rgb(251, 52, 52);
+  max-width: 13%;
+}
+
+.productlist article.soldOut img {
+  opacity: 0.5;
+}
+.productlist article.soldOut::before {
+  content: "Sold Out";
+  position: absolute;
+  background: rgb(91, 91, 96);
+  color: rgb(255, 255, 255);
+  padding: 1rem;
+}
+
 .grid a {
     text-decoration: none;
     padding: 2em;
