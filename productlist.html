@@ -13,30 +13,32 @@
         <h1>REVIVE STUDIOS.</h1>
       </a>
       <nav class="navbar">
-        <a href="#">Categories</a>
+        <a href="categories.html">Categories</a>
         <a href="categories.html">Brands</a>
         <a href="#">Seasons</a>
       </nav>
     </header>
-    <h2>Nike</h2>
     <main class="productlistgrid">
-      <article class="smallProduct">
-        <a href="product.html">
-          <img
-            src="https://kea-alt-del.dk/t7/images/webp/640/1163.webp"
-            alt="Sahara Team India Fanwear Round Neck Jersey"
-          />
-        </a>
-        <h3>Sahara Team India Fanwear Round Neck Jersey</h3>
-        <p class="subtle">Tshirts | Nike</p>
-        <p class="price"><span>Prev.</span> DKK 1595,-</p>
-        <div class="discounted">
-          <p>Now DKK 1560,-</p>
-          <p class="percent">-34%</p>
-        </div>
-        <a class="readmore" href="product.html">Read More</a>
-      </article>
-      <article class="smallProduct onSale">
+      <h2 class="categoryname">Apparel</h2>
+      <template id="smallProductTemplate" >
+        <article class="smallProduct">
+          <a href="product.html">
+            <img
+              src="https://kea-alt-del.dk/t7/images/webp/640/1163.webp"
+              alt="Sahara Team India Fanwear Round Neck Jersey"
+            />
+          </a>
+          <h3>Sahara Team India Fanwear Round Neck Jersey</h3>
+          <p class="subtle">Tshirts | Nike</p>
+          <p class="price"><span>Prev.</span> DKK 1595,-</p>
+          <div class="discounted">
+            <p>Now DKK 1560,-</p>
+            <p>-34%</p>
+          </div>
+          <a class="readmore" href="product.html">Read More</a>
+        </article>
+      </template>
+      <!-- <article class="smallProduct onSale">
         <a href="product.html">
           <img
             src="https://kea-alt-del.dk/t7/images/webp/640/1164.webp"
@@ -91,16 +93,15 @@
             alt="Blue T20 Indian Cricket Jersey"
           />
         </a>
-        <h3>Blue T20 Indian Cricket Jersey</h3>
-        <p class="subtle">Tshirts | Nike</p>
+        <h3>Black T20 Cricket Backpack</h3>
+        <p class="subtle">Accessories | Puma</p>
         <p class="price"><span>Prev.</span> DKK 1595,-</p>
         <div class="discounted">
-          <p>Now DKK 1560,-</p>
-          <p class="percent">-34%</p>
+          <p>DKK 1560,-</p>
         </div>
         <a class="readmore" href="product.html">Read More</a>
-      </article>
+      </article> -->
     </main>
-    <footer></footer>
+    <script src="js/productlist.js" ></script>
   </body>
 </html>
